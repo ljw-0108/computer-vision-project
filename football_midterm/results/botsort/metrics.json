@@ -1,0 +1,22 @@
+{
+  "tracker": "botsort",
+  "frames": 750,
+  "rows": 17809,
+  "unique_ids": 115,
+  "mean_tracked_persons": 23.745333333333335,
+  "min_tracked_persons": 19,
+  "max_tracked_persons": 28,
+  "zero_track_frames": 0,
+  "median_track_observations": 75.0,
+  "short_ids_lt_1s": 40,
+  "internal_gap_frames": 525,
+  "selected_track_id": 11,
+  "selected_track_observations": 750,
+  "mean_confidence": 0.6052431908050548,
+  "bbox_height_p10": 46.29859619140625,
+  "bbox_height_median": 62.6168212890625,
+  "processing_seconds": 257.2047961840035,
+  "processing_fps": 2.915964286542512,
+  "end_to_end_seconds": 279.1871311079999,
+  "end_to_end_fps": 2.6863702385690273
+}

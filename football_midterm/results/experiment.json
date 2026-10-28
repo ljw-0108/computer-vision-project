@@ -1,0 +1,89 @@
+{
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 25.0,
+    "total_frames": 750,
+    "duration_seconds": 30.0,
+    "size_bytes": 20341580,
+    "sha256": "077985a55b61fe2ca413221c082711655b7ba736a3bbd8ff97b4dfc0e5b03c57"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cpu": "x86_64",
+    "torch_threads": 2,
+    "cuda_available": false,
+    "versions": {
+      "ultralytics": "8.3.221",
+      "torch": "2.5.1+cpu",
+      "torchvision": "0.20.1+cpu",
+      "opencv-python": "5.0.0.93",
+      "pandas": "2.2.3",
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "lap": "0.5.12"
+    }
+  },
+  "settings": {
+    "model": "YOLO11s COCO pretrained",
+    "classes": [
+      0
+    ],
+    "conf": 0.1,
+    "iou": 0.7,
+    "imgsz": 640,
+    "device": "cpu",
+    "stride": 1,
+    "warmup": "one black frame predict before timer",
+    "note": "Sequential single runs, no accuracy ground truth; ReID disabled by default"
+  },
+  "results": [
+    {
+      "tracker": "bytetrack",
+      "frames": 750,
+      "rows": 17455,
+      "unique_ids": 152,
+      "mean_tracked_persons": 23.273333333333333,
+      "min_tracked_persons": 19,
+      "max_tracked_persons": 27,
+      "zero_track_frames": 0,
+      "median_track_observations": 28.0,
+      "short_ids_lt_1s": 73,
+      "internal_gap_frames": 425,
+      "selected_track_id": 11,
+      "selected_track_observations": 750,
+      "mean_confidence": 0.6123282810232934,
+      "bbox_height_p10": 46.437158203125,
+      "bbox_height_median": 62.69061279296875,
+      "processing_seconds": 124.85592923699505,
+      "processing_fps": 6.006923376273055,
+      "end_to_end_seconds": 148.569004554,
+      "end_to_end_fps": 5.048159286329467
+    },
+    {
+      "tracker": "botsort",
+      "frames": 750,
+      "rows": 17809,
+      "unique_ids": 115,
+      "mean_tracked_persons": 23.745333333333335,
+      "min_tracked_persons": 19,
+      "max_tracked_persons": 28,
+      "zero_track_frames": 0,
+      "median_track_observations": 75.0,
+      "short_ids_lt_1s": 40,
+      "internal_gap_frames": 525,
+      "selected_track_id": 11,
+      "selected_track_observations": 750,
+      "mean_confidence": 0.6052431908050548,
+      "bbox_height_p10": 46.29859619140625,
+      "bbox_height_median": 62.6168212890625,
+      "processing_seconds": 257.2047961840035,
+      "processing_fps": 2.915964286542512,
+      "end_to_end_seconds": 279.1871311079999,
+      "end_to_end_fps": 2.6863702385690273
+    }
+  ],
+  "analysis_date_seoul": "2026-10-28",
+  "model_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+}

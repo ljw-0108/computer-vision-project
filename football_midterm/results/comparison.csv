@@ -1,0 +1,3 @@
+tracker,frames,rows,unique_ids,mean_tracked_persons,min_tracked_persons,max_tracked_persons,zero_track_frames,median_track_observations,short_ids_lt_1s,internal_gap_frames,selected_track_id,selected_track_observations,mean_confidence,bbox_height_p10,bbox_height_median,processing_seconds,processing_fps,end_to_end_seconds,end_to_end_fps
+bytetrack,750,17455,152,23.273333333333333,19,27,0,28.0,73,425,11,750,0.6123282810232934,46.437158203125,62.69061279296875,124.85592923699505,6.006923376273055,148.569004554,5.048159286329467
+botsort,750,17809,115,23.745333333333335,19,28,0,75.0,40,525,11,750,0.6052431908050548,46.29859619140625,62.6168212890625,257.2047961840035,2.915964286542512,279.1871311079999,2.6863702385690273

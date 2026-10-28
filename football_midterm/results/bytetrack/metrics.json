@@ -1,0 +1,22 @@
+{
+  "tracker": "bytetrack",
+  "frames": 750,
+  "rows": 17455,
+  "unique_ids": 152,
+  "mean_tracked_persons": 23.273333333333333,
+  "min_tracked_persons": 19,
+  "max_tracked_persons": 27,
+  "zero_track_frames": 0,
+  "median_track_observations": 28.0,
+  "short_ids_lt_1s": 73,
+  "internal_gap_frames": 425,
+  "selected_track_id": 11,
+  "selected_track_observations": 750,
+  "mean_confidence": 0.6123282810232934,
+  "bbox_height_p10": 46.437158203125,
+  "bbox_height_median": 62.69061279296875,
+  "processing_seconds": 124.85592923699505,
+  "processing_fps": 6.006923376273055,
+  "end_to_end_seconds": 148.569004554,
+  "end_to_end_fps": 5.048159286329467
+}
